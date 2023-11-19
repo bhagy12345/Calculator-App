@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product Purchase</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        .centered-div {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        select,
+        button {
+            margin: 10px;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            background-color: gray;
+            color: black;
+        }
+        
+        select:hover,
+        button:hover {
+            background-color: gray;
+            cursor: pointer;
+        }
+          button {
+            color: white;
+            background-color: gold;
+            border: 1px solid red;
+        }
+        
+        button:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+	<form>
+    <div class="centered-div">
+        <h2>Select a Product</h2>
+        <select id="productDropdown">
+            <option>shirt</option>
+            <option>shoes</option>
+            <option>watch</option>
+        </select>
+        <br>
+        <button formaction="normalBuy">NormalBuy</button>
+        <button formaction="primeBuy">PrimeBuy</button>
+        </div>
+    </form>
+</body>
+
+</html>
+        
+        
+        
